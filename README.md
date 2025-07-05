@@ -1,4 +1,4 @@
-# OmniFund
+# [Uncompleted] OmniFund
 
 A cross-chain index fund token built with LayerZero V2, deployed on Base with automatic portfolio synchronization capabilities.
 
