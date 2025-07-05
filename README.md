@@ -1,4 +1,4 @@
-# [Uncompleted] OmniFund
+# ❗️ This project is not completed - Omni Index Fund
 
 A cross-chain index fund token built with LayerZero V2, deployed on Base with automatic portfolio synchronization capabilities.
 
