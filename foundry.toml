@@ -1,0 +1,21 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# Remappings for dependencies
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "@layerzerolabs/oft-evm/contracts/=lib/devtools/packages/oft-evm/contracts/",
+    "@layerzerolabs/oapp-evm/contracts/=lib/devtools/packages/oapp-evm/contracts/",
+    "@layerzerolabs/lz-evm-protocol-v2/contracts/=lib/LayerZero-v2/packages/layerzero-v2/evm/protocol/contracts/",
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+# Block Explorer Configuration for Verification
+[etherscan]
+# Base Mainnet - Chain ID 8453
+base = { key = "${BASESCAN_API_KEY}" }
+# Base Sepolia Testnet - Chain ID 84532
+base_sepolia = { key = "${BASESCAN_API_KEY}" }
